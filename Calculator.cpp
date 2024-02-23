@@ -69,7 +69,7 @@ std::vector<int> toDecimal(int digit) {
 void showBinary(std::vector<int> ans){
     std::cout << "Binary representation: ";
 
-    for(size_t i = ans.size() - 1; i >= 0; --i)
+    for(int i = ans.size() - 1; i >= 0; --i)
         std::cout << ans[i];
 
     std::cout << std::endl;
